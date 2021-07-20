@@ -1524,10 +1524,10 @@ INSERT INTO conta_corrente (banco_numero,agencia_numero,numero,digito,cliente_nu
 INSERT INTO conta_corrente (banco_numero,agencia_numero,numero,digito,cliente_numero) VALUES (477,16,265011678,0,15);
 INSERT INTO conta_corrente (banco_numero,agencia_numero,numero,digito,cliente_numero) VALUES (477,16,106523513,8,463);
 
-INSERT INTO tipo_transacao (nome_transacao) VALUES ('Débito');
-INSERT INTO tipo_transacao (nome_transacao) VALUES ('Crédito');
-INSERT INTO tipo_transacao (nome_transacao) VALUES ('Transferência');
-INSERT INTO tipo_transacao (nome_transacao) VALUES ('Empréstimo');
+INSERT INTO tipo_transacao (nome) VALUES ('Débito');
+INSERT INTO tipo_transacao (nome) VALUES ('Crédito');
+INSERT INTO tipo_transacao (nome) VALUES ('Transferência');
+INSERT INTO tipo_transacao (nome) VALUES ('Empréstimo');
 
 INSERT INTO cliente_transacoes (banco_numero,agencia_numero,conta_corrente_numero,conta_corrente_digito,cliente_numero,tipo_transacao_id,valor) VALUES (247,30,424222306,8,208,3, 0.87);
 INSERT INTO cliente_transacoes (banco_numero,agencia_numero,conta_corrente_numero,conta_corrente_digito,cliente_numero,tipo_transacao_id,valor) VALUES (104,12,203989772,8,65,3, 1.61);
